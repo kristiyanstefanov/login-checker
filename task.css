@@ -1,0 +1,230 @@
+body{
+    background-image: url("http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg")
+}
+
+
+.img{
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+    padding: auto;
+    z-index: -1;
+    background-image: url("https://pre00.deviantart.net/ed81/th/pre/i/2011/109/8/8/background_m3_login_for_m1_by_andreascy-d3ecbzg.jpg");
+    width: 960px;
+    height: 450px;
+  }
+
+ .img-bottom{
+    display: block;
+    margin: auto;
+    padding: auto;
+    background-image: url("https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=338&ext=jpg");
+    height: 170px;
+    width: 960px;
+    position: relative;
+    z-index: -1;
+    left: 0px;
+  
+ }
+
+
+.container{
+    background-color: #454A46;
+    margin: auto;
+    padding: auto;
+    width: 960px;
+    height: 150px;
+    position: relative;
+    top:-160px;
+}
+
+.display{
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+
+.yellow{
+    color: #EC954C;
+}
+
+input{
+    background-color: #C9C9C9;
+    width: 250px;
+    height: 35px;
+}
+
+select{
+    background: #C9C9C9;
+    width: 250px;
+    height: 40px;
+   
+}
+option:not(:checked) { 
+    background-color: white; 
+    color:#000;
+}
+
+.name{
+    position: relative;
+    left: 50px;
+    top:25px;   
+}
+
+.phone{
+    position: relative;
+    left: 400px;
+    bottom:57px;
+}
+
+.email{
+    position: relative;
+    left: 46px;
+    top: -30px;
+}
+
+.inputfieldDial{
+    width: 50px !important;
+}
+
+.inputfieldNumber{
+    width: 184px !important;
+}
+
+.country{
+    position: relative;
+    left: 400px;
+    top: 50px;
+    z-index: 1;
+
+}
+
+.button{
+    background-color: #FCA934;
+    width: 200px;
+    height: 50px;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 25px;
+    position: relative;
+    bottom: 220px;
+    left: 700px;
+}
+
+.check{
+    position: relative;
+    bottom: 52px;
+    left: 930px;
+    z-index: 1;
+    width: 20px;
+    height: 50px;
+}
+
+.checkText{
+    position: relative;
+    bottom: 105px;
+    left: 680px;
+    color: whitesmoke;
+}
+
+.error {
+    position: relative;
+    color: red;
+    font-size: 18px;    
+    bottom: 240px;
+    left: 703px;
+}
+
+.popUP{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    top: 400px;
+    left: 800px;
+    bottom: 0px;
+    border-radius: 10px;
+}
+
+@media (max-width:800px){
+   .img{
+    width: 465px;
+    height: 410px;
+    background-image: url("https://pre00.deviantart.net/ed81/th/pre/i/2011/109/8/8/background_m3_login_for_m1_by_andreascy-d3ecbzg.jpg");
+   }
+   .popUP{
+       display: none;
+   }
+   .img-bottom{
+       display: none;
+   }
+   .container{
+       height: 500px;
+       width: 465px;
+       margin-top: 160px;
+   }
+
+   .email{
+       top:-50px;
+   }
+
+    .phone{
+    left: 50px;
+    top:80px;
+    }
+
+    .country{
+        left: 50px;
+        top: 190px;
+        }
+
+     .button{
+         left: 140px;
+         top: -10px;
+         width: 200px;
+         height: 50px;
+
+     }
+
+     .check{
+         left: 40px;
+         top: 150px;
+     }
+
+     .checkText{
+         top: 98px;
+         left: 80px;
+
+     }
+
+     .error{
+         left: 125px;
+         top: 40px;
+         font-size: 25px;
+
+     }
+
+     .inputfieldNumber{
+         width: 290px !important;
+     }
+
+     .container{
+         border-style: solid;
+         border-color: #EC954C;
+         border-bottom: none;
+         border-right: none;
+         border-left: none;
+         border-width: 20px;
+     }
+
+     input{
+         height: 50px;
+         width: 350px;
+     }
+
+     select{
+         width: 350px;
+     }
+
+
+}

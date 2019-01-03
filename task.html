@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="task.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+"
+        crossorigin="anonymous">
+    <script type="text/javascript" src="task.js"></script>
+</head>
+
+<body>
+    <div class="display">
+        <div class="img">
+            <button type="button" id="pop" onmouseover="openUp()" class="popUP">HTML button</button>
+        </div>
+        <div class="img-bottom"></div>
+        <div class="container">
+            <form name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="name">
+                    <i class="fa fa-user yellow"></i>
+                    <input type="text" id="fullname" placeholder="Full Name">
+                </div>
+                <div class="country">
+                    <i class="fa fa-location-arrow yellow"></i>
+                    <select id="sele" onchange="changeDial()">
+                        <option disabled value selected>Country</option>
+                        <option value="BU">Bulgaria</option>
+                        <option value="RO">Romania</option>
+                        <option value="GE">Germany</option>
+                        <option value="EN">England</option>
+                    </select>
+                </div>
+                <div class="phone">
+                    <i class="fa fa-phone yellow"></i>
+                    <input type="text" class="inputfieldDial" id="dial" maxlength="4" size="4" placeholder="+000">
+                    <input type="text" class="inputfieldNumber" id="number" maxlength="10" size="10" placeholder="Phone Number">
+                </div>
+                <div class="email">
+                    <i class="fa fa-envelope-o yellow"></i>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <div>
+                    <input type="checkbox" class="check" id="myCheck">
+                    <p class="checkText">I agree with the <u>Terms and Conditions</p></u></input>
+                </div>
+                <div>
+
+                    <button type="submit" class="button" value="submit"> <i class="fa fa-arrow-circle-right"></i>Send</button>
+                </div>
+                <div>
+                    <h5 class="error" id="nC"></h5>
+                </form>
+                </div>
+        </div>
+
+
+</body>
+
+</html>
